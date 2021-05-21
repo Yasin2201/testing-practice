@@ -1,9 +1,9 @@
 const capitalizeString = require('../code/capitalizeString');
 
-test('Capitalizes lowercase string', () => {
-    expect(capitalizeString('lowercase string')).toBe('LOWERCASE STRING');
+test('Capitalizes first letter(1)', () => {
+    expect(capitalizeString('lowercase')).toBe('Lowercase');
 });
 
-test('Capitalize mixed string', () => {
-    expect(capitalizeString('mIxeD stRinG')).toBe('MIXED STRING');
+test('apitalizes first letter(2)', () => {
+    expect(capitalizeString('another One')).toBe('Another One');
 });
