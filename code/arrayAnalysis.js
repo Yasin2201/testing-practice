@@ -12,8 +12,8 @@ function arrayAnalysis(arr) {
 
     const analysisObject = {
         average: average(findAverage),
-        min: arr.reduce((a, b) => Math.min(a, b)),
-        max: max = arr.reduce((a, b) => Math.max(a, b)),
+        min: Math.min(...arr),
+        max: Math.max(...arr),
         length: arr.length
     }
 
