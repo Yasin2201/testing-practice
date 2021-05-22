@@ -13,5 +13,5 @@ test('test letter case', () => {
 })
 
 test('test punctuation is ignored', () => {
-    expect(encrypt('I\'m using punction! ...I think?', 5)).toBe('N\'r zxnsl uzshyzfynts! ...I ymnsp?')
+    expect(encrypt('I\'m using punctuation! ...I think?', 5)).toBe('N\'r zxnsl uzshyzfynts! ...N ymnsp?')
 })
